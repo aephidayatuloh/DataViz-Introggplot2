@@ -7,3 +7,11 @@ You can use the [editor on GitHub](https://github.com/aephidayatuloh/DataViz-Int
 library(ggplot2)
 ```
 
+```{r}
+ggplot(data, mapping = aes()) + geom
+```
+
+```{r}
+ggplot(data = flights, mapping = aes(x = distance)) +
+  geom_histogram()
+```
